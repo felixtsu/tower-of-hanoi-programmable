@@ -1,4 +1,6 @@
-Hanoi.onGameStart(5, 1000, function solveHanoi() {
+let DISK_NUMBER = 5
+let STEP_INTERVAL = 1000
+Hanoi.onGameStart(DISK_NUMBER, STEP_INTERVAL, function solveHanoi() {
     // 有两个已经写好的函数可以操作盘子
     //  这个函数可以将第0号柱子（最左边）最上面的盘子拿起来
     Hanoi.pickUp(0)

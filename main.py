@@ -18,4 +18,7 @@ def solveHanoi():
     
 
 
-Hanoi.onGameStart(5, 1000, solveHanoi)
+DISK_NUMBER = 5
+STEP_INTERVAL = 1000
+
+Hanoi.onGameStart(DISK_NUMBER, STEP_INTERVAL, solveHanoi)
